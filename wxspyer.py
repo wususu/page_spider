@@ -168,7 +168,7 @@ def io_image(lists):
 
 
 def run():
-    print("微信爬虫启动",datetime.now()[:-7])
+    print("微信爬虫启动",str(datetime.now())[:-7])
     urls = WXUrl()
     lists = []
     url_list = []
